@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dad Joke Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    #joke {
+      font-size: 1.2rem;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    #jokeBtn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      background-color: #3498db;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    #jokeBtn:disabled {
+      background-color: #95a5a6;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>😂 Dad Joke Generator</h1>
+  <p id="joke">Loading...</p>
+  <button id="jokeBtn">Get Another Joke</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
